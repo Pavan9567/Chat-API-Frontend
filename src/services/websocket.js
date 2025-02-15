@@ -1,4 +1,4 @@
-const WS_URL = "ws://localhost:1337";
+const WS_URL = "https://chat-api-backend-m7ft.onrender.com";
 const ws = new WebSocket(WS_URL);
 
 ws.onopen = () => console.log("Connected to WebSocket server");
